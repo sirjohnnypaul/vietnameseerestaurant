@@ -1,0 +1,21 @@
+
+    <div class="mainPageWrapper">
+    <h1  alt="" class="pagelogo">Am Thuc Viet</h1>
+    <h3 class="description">kuchnia wietnamska sopot</h3>
+    <h1 class="descriptiontwo">Najlepsza kuchnia wietnamska z tradycją w twojej okolicy!</h1>
+    <a class="checkoffer" href="/menu">Zobacz nasze dania</a>
+</div>
+
+
+<script>
+$(".checkoffer").click( function(event){
+    event.preventDefault();
+    closeBlack();
+    menuClose();
+    closeOrange();
+    $(".pagesection").fadeOut(300, function(){
+        openRed();
+        $(".pagesection").load("/menu").fadeIn();
+    });
+});
+</script>

@@ -1,0 +1,40 @@
+<div class="routesection">
+    
+        <section class="dsleftsec">
+            <div class="dsleftcontainer">
+              <h1 class="dsconttitle">Jak do nas dojechać?</h1>
+              <h4 class="dscontp">Restauracja wietnamska Am Thuc Viet
+                znajduje się przy Al. Niepodległości 755 w Sopocie.
+                Zapraszamy!</h4>
+            </div>
+        </section>
+
+        <section class="dsrightsec">
+
+          <div id="map">
+    
+          <script>
+          var map;
+          function initMap() {
+            var vietnamska = {lat: 54.4394213, lng: 18.5603718}
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: vietnamska,
+              zoom: 15
+            });
+            var marker = new google.maps.Marker({position: vietnamska, map: map});
+            marker.addListener('click', function() {
+              if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                window.location = "geo:54.4394213,18.5603718";
+              } else {
+                window.location = "https://www.google.com/maps/place/Kuchnia+Wietnamska/@54.4393263,18.5599412,18z/data=!4m8!1m2!3m1!2sKuchnia+Wietnamska!3m4!1s0x46fd0a9729f597cd:0x1df631bf81dc584f!8m2!3d54.439401!4d18.5608173"
+              }
+            });
+          }
+          </script>
+
+          
+          <script async defer src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAwSQcNzK5zUsI0Gx3XBQiTXc8C1mF9lRI&callback=initMap"></script>
+          </div>
+
+        </section>
+</div>

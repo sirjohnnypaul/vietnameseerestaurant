@@ -1,0 +1,62 @@
+<script type='text/javascript'>
+  var menu = <%- menu_test %>
+  
+</script>
+
+<% var indexCounter = 0 %>
+
+<div class="menusection">
+      <section class="menucategory">
+        <% for (var menuitem in JSON.parse(menu_test)) {%>
+          <ul class="menucategoryitem"><a href="<%= '#' + indexCounter.toString()  %>"><%= menuitem %></a></ul>
+          <% indexCounter++ %>
+        <% }; %>
+        <% indexCounter = 0 %>
+      </section>
+
+      <section class="menudisplay">
+
+        <div class="menucontainer">
+        <% var parsedMenu = JSON.parse(menu_test) %>
+        
+        <% for(category in parsedMenu){ %>
+          <% var backgroundUrl = "/categoryImages/" + parsedMenu[category].thumbnail + ".jpeg" %>
+          <div id="<%= indexCounter %>" class="menuimage" style="background: url('<%= backgroundUrl %>'); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+            <div class="categoryName"> <%= category %> </div>
+          <br>
+            <% indexCounter++ %>
+          </div>
+          <p class="categoryIgredients"> <%= parsedMenu[category].ingredientsGroup %> </p>
+          <% parsedMenu[category].dishes.forEach(function(dish){ %>
+            <div class="menuposition" style="">
+            
+              <% if (dish["photo"]){ %>
+              <% var photoLink = "/MenuImages/" + dish["photo"].toString() + ".jpeg"  %>
+              <img src="<%= photoLink %>" alt="" class="menupositionimg"> 
+              <% }; %>
+                      
+              <span class="menupositiontitle"><%= dish["name"] %></span>
+              <span class="menupositioningredients"><%= dish["ingredients"] %></span>
+              <span class="pricetag"><%= dish["price"] %></span>
+            </div>
+          <% }); %>
+  
+          <% }; %>
+        </div>
+
+      </section>
+</div>
+
+<script>
+  $(".menucategoryitem a").click( function(event){
+    event.preventDefault();
+      var topPos;
+      var slideElement = event.target.attributes.href.value.slice(1);
+      var slideElementPos = document.getElementById(slideElement).offsetTop;
+      console.log(slideElementPos);
+      window.scroll({
+        top: slideElementPos,
+        behavior: 'smooth' 
+      });
+  })
+</script>

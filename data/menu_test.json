@@ -1,0 +1,400 @@
+{       
+"Przekąski": {
+        "thumbnail": "przekaski",
+        "ingredientsGroup":"",
+        "dishes": [
+                {"name": "NEM (Sajgonki smażone) 3 sztuki z surówką",
+                "ingredients": "Mięso wieprzowe, grzyby, makaron sojowy, marchewka, cebula, jajko, sól",
+                "price": "9 PLN",
+                "photo": 1 },
+
+                {"name": "NEM (Sajgonki smażone) 3 sztuki z makaronem lub ryżem",
+                "ingredients": "Mięso wieprzowe, grzyby, makaron sojowy, marchewka, cebula, jajko, sól",
+                "price": "12 PLN",
+                "photo": 1 },
+
+                {"name": "TOM CUON",
+                "ingredients": "Krewetki zawijane w wiórki ziemniaczane 5 szt.",
+                "price": "17 PLN",
+                "photo": 2 },
+
+                {"name": "Pierożki Wonton",
+                "ingredients": "Ciemny bulion, cebula dymka, mięta, szczypiorek 5 szt.",
+                "price": "14 PLN",
+                "photo": 3 },
+
+                {"name": "HACAO",
+                "ingredients": "Pierożki Ha Cao z krewetkami 4 szt.",
+                "price": "12 PLN",
+                "photo": 4 }
+]},
+
+"Zupy": { 
+        "thumbnail": "ZUPY",
+        "ingredientsGroup":"Makaron ryżowy, kiełki, kolendra, szypiorek","dishes": [
+                {"name": "PHO BO",
+                "ingredients": "Zupa z gotowaną wołowiną",
+                "price": "12 PLN / 19 PLN",
+                "photo": 5 },
+
+                {"name": "PHO GA",
+                "ingredients": "Zupa z gotowanym kurczakiem",
+                "price": "10 PLN / 17 PLN",
+                "photo": 6 },
+
+                {"name": "PHO BO TAI LAN",
+                "ingredients": "Zupa ze smażoną wołowiną",
+                "price": "13 PLN / 22 PLN",
+                "photo": 7 },
+
+                {"name": "PHO VIT",
+                "ingredients": "Zupa z pieczoną kaczką",
+                "price": "24 PLN",
+                "photo": 8 },
+
+                {"name": "PHO DAU",
+                "ingredients": "Zupa z tofu",
+                "price": "10 PLN / 16 PLN",
+                "photo": 9 }
+        ]},
+
+"Cienki Makaron Ryżowy":{ 
+        "thumbnail": "THINRICENOODLES",
+        "ingredientsGroup":"Pikle, sałata, kiełki, zioła, kolendra, orzeszki, sos specjalny",
+        "dishes": [
+                {"name": "BUN BO NAM BO",
+                "ingredients": "Cienki makaron ryżowy z wołowiną",
+                "price": "22 PLN",
+                "photo": 10 }, 
+
+                {"name": "BUN BIT",
+                "ingredients": "Cienki makaron ryżowy z pieczoną kaczką",
+                "price": "25 PLN",
+                "photo": 11 },  
+
+                {"name": "BUN DAU",
+                "ingredients": "Cienki makaron ryżowy ze smażonym tofu",
+                "price": "17 PLN",
+                "photo": 12 },
+
+                {"name": "BUN NEM",
+                "ingredients": "Cienki makaron ryżowy ze smażonymi sajgonkami",
+                "price": "17 PLN",
+                "photo": 13 },
+
+                {"name": "BUN GA",
+                "ingredients": "Cienki makaron ryżowy ze smażonym kurczakiem",
+                "price": "20 PLN",
+                "photo": 14 }
+]},
+
+"Kotlety smażone na chrupko":{ 
+        "thumbnail": "KOTLETY",
+        "ingredientsGroup":"Podawane z makaronem lub ryżem i surówką",                 
+        "dishes": [
+                {"name": "Kotlet z kurczaka",
+                "ingredients": "",
+                "price": "12 PLN",
+                "photo": 15 }
+]},
+
+"Dania z kurczaka":{ 
+        "thumbnail": "CHICKEN",
+        "ingredientsGroup":"Podawane z makaronem lub ryżem i surówką",                  
+        "dishes": [
+                {"name": "Kurczak w sosie pięciu smaków",
+                "ingredients": "Warzywa, kiełki, grzyby, cebula",
+                "price": "17 PLN",
+                "photo": 16 }, 
+
+                {"name": "Kurczak na chrupiąco",
+                "ingredients": "Tajska panierka",
+                "price": "16 PLN",
+                "photo": 17 }, 
+
+                {"name": "Kurczak w sosie pikantnym",
+                "ingredients": "Warzywa, kiełki, cebula, chili, czosnek, grzyby",
+                "price": "16 PLN",
+                "photo": 18 }, 
+
+                {"name": "Filet z kurczaka po wietnamsku",
+                "ingredients": "Sos warzywny, kiełki, chili, papryka",
+                "price": "18 PLN",
+                "photo": 19 }, 
+
+                {"name": "Kurczak zapiekany w sosie pikantnym",
+                "ingredients": "",
+                "price": "18 PLN",
+                "photo": 20 }
+]},
+
+"Dania z wieprzowiny":{ 
+        "thumbnail": "PORK",
+        "ingredientsGroup":"Podawane z makaronem lub ryżem i surówką",                 
+        "dishes": [
+                {"name": "Wieprzowina w sosie warzywnym",
+                "ingredients": "Warzywa po pekińsku, grzyby, cebula, kiełki",
+                "price": "16 PLN",
+                "photo": 21 },
+
+                {"name": "Wieprzowina z cebulą i kiełkami na ostro",
+                "ingredients": "",
+                "price": "17 PLN",
+                "photo": 22 }
+]},
+
+"Dania z wołowiny":{
+        "thumbnail": "BEEF",
+        "ingredientsGroup":"Podawane z makaronem lub ryżem i surówką",
+        "dishes": [
+                {"name": "Wołowina z cebulą i kiełkami",
+                "ingredients": "",
+                "price": "20 PLN",
+                "photo": 23 },
+
+                {"name": "Wołowina w sobie pikantnym",
+                "ingredients": "Warzywa po pekińsku, grzyby, cebula, kiełki, papryka",
+                "price": "19 PLN",
+                "photo": 24 },
+
+                {"name": "Smażona wołowina kapustą wietnamską PAK-CHOI",
+                "ingredients": "",
+                "price": "21 PLN",
+                "photo": 25 },
+
+                {"name": "Smażona wołowina z trawą cytrynową",
+                "ingredients": "",
+                "price": "21 PLN",
+                "photo": 26 },
+                
+                {"name": "Smażona wołowina w sosie pięciu smaków",
+                "ingredients": "",
+                "price": "20 PLN",
+                "photo": 27 }
+]},
+
+"Dania z kaczki":{     
+        "thumbnail": "DUCK",
+        "ingredientsGroup":"Podawane z makaronem lub ryżem i surówką",
+        "dishes": [
+                {"name": "Filet z kaczki pieczony w sosie pikantnym",
+                "ingredients": "",
+                "price": "25 PLN",
+                "photo": 28 },
+
+                {"name": "Filet z kaczki pieczony na chrupiąco",
+                "ingredients": "",
+                "price": "25 PLN",
+                "photo": 29 }
+]},
+
+"Dania wegetariańskie":{     
+        "thumbnail": "VEGAN",
+        "ingredientsGroup":"Warzywa, cebula, kiełki, kukurydza, marchewka, groszek",
+        "dishes": [
+                {"name": "Ryż smażony z warzywami",
+                "ingredients": "",
+                "price": "13 PLN",
+                "photo": 30 },
+
+                {"name": "Makaron sojowy lub ryżowy z warzywami",
+                "ingredients": "",
+                "price": "14 PLN",
+                "photo": 31 }
+]},
+
+"Ryż smażony":{
+        "thumbnail": "FIREDRICE",
+        "ingredientsGroup":"Jajko, kukurydza, marchewka, groszek, kiełki, cebula",
+        "dishes": [
+                {"name": "Ryż smażony z kurczakiem lub wieprzowiną",
+                "ingredients": "",
+                "price": "18 PLN",
+                "photo": 32 },
+
+                {"name": "Ryż smażony z wołowiną",
+                "ingredients": "",
+                "price": "20 PLN",
+                "photo": 33 },
+
+                {"name": "Ryż smażony z krewetkami królewskimi",
+                "ingredients": "6 szt.",
+                "price": "25 PLN",
+                "photo": 34 }
+]},
+
+"Makaron smażony":{
+        "thumbnail": "FRIEDPASTA",
+        "ingredientsGroup":"Sojowy lub ryżowy, warzywa, kiełki, cebula",
+        "dishes": [
+                {"name": "Makaron smażony z kurczakiem lub wieprzowiną",
+                "ingredients": "",
+                "price": "18 PLN",
+                "photo": 35 },
+                
+                {"name": "Makaron smażony z wołowiną",
+                "ingredients": "",
+                "price": "21 PLN",
+                "photo": 36 },
+
+                {"name": "Makaron smażony z krewetkami królewskimi",
+                "ingredients": "6 szt.",
+                "price": "25 PLN",
+                "photo": 37 }
+]},
+
+"Krewetki":{ 
+        "thumbnail": "SHRIMPS",
+        "ingredientsGroup":"Podawane z makaronem lub ryżem i surówką",
+        "dishes": [
+                {"name": "Krewetki królewskie w cieście sezamowym",
+                "ingredients": "6 szt.",
+                "price": "23 PLN",
+                "photo": 38 },
+
+                {"name": "Krewetki królewskie na chrupiąco",
+                "ingredients": "6 szt.",
+                "price": "25 PLN",
+                "photo": 39 },
+
+                {"name": "Krewetki królewskie z warzywami w sosie pikantnym",
+                "ingredients": "6 szt.",
+                "price": "25 PLN",
+                "photo": 40 }
+]},
+
+"Dania z czerwonym curry":{
+        "thumbnail": "CURRY",
+        "ingredientsGroup":"Świeże warzywa, ananas, orzechy, mleko kokosowe, smażone w sosie CURRY - Podawane z makaronem lub ryżem i surówką",
+        "dishes": [
+
+                {"name": "CURRY z tofu",
+                "ingredients": "",
+                "price": "19 PLN",
+                "photo": 41 },
+
+                {"name": "CURRY z kurczakiem i wieprzowiną",
+                "ingredients": "",
+                "price": "19 PLN",
+                "photo": 42 },
+
+                {"name": "CURRY z wołowiną",
+                "ingredients": "",
+                "price": "22 PLN",
+                "photo": 43 },
+
+                {"name": "CURRY z krewetkami królewskimi",
+                "ingredients": "6 szt.",
+                "price": "25 PLN",
+                "photo": 44 },
+
+                {"name": "CURRY z kaczką",
+                "ingredients": "",
+                "price": "25 PLN",
+                "photo": 45 }
+]},
+
+"Dania w sosie HOI SIN": {
+        "thumbnail": "HOISIN",
+        "ingredientsGroup":"Świeże warzywa smażone w sosie HOI SIN - Podawane z makaronem lub ryżem i surówką",
+        "dishes": [
+                {"name": "HOI SIN z tofu",
+                "ingredients": "",
+                "price": "19 PLN",
+                "photo": 46
+                },
+
+                {"name": "HOI SIN z kurczakiem lub wieprzowiną",
+                "ingredients": "",
+                "price": "19 PLN",
+                "photo": 47
+                },
+
+                {"name": "HOI SIN z wołowiną",
+                "ingredients": "",
+                "price": "22 PLN",
+                "photo": 48
+                },
+
+                {"name": "HOI SIN z krewetkami królewskimi",
+                "ingredients": "6 szt.",
+                "price": "25 PLN",
+                "photo": 49
+                }
+]},
+
+"Dodatki": {
+        "thumbnail": "EXTRAS",
+        "ingredientsGroup":"",
+        "dishes": [
+                {"name": "Surówka z białej kapusty",
+                "ingredients": "",
+                "price": "2.5 PLN",
+                "photo": 50
+                },
+
+                {"name": "Ryż biały",
+                "ingredients": "",
+                "price": "3 PLN",
+                "photo": 51
+                },
+
+                {"name": "Sos słodko-kwaśny",
+                "ingredients": "",
+                "price": "1 PLN",
+                "photo": 52
+                },
+
+                {"name": "Sos pikantny",
+                "ingredients": "",
+                "price": "2 PLN",
+                "photo": 52
+                },
+
+                {"name": "Opakowanie na wynos",
+                "ingredients": "",
+                "price": "1 PLN",
+                "photo": 53
+                }
+]},
+
+"Napoje":{
+        "thumbnail": "DRINKS",
+        "ingredientsGroup":"",
+        "dishes": [
+                {"name": "Herbata Lipton",
+                "ingredients": "",
+                "price": "3 PLN",
+                "photo": 54 },
+
+                {"name": "Herbata zielona",
+                "ingredients": "",
+                "price": "4 PLN",
+                "photo": 55},
+
+                {"name": "Napoje ASIA",
+                "ingredients": "",
+                "price": "5 - 7 PLN",
+                "photo": 58 },
+
+                {"name": "Kawa",
+                "ingredients": "",
+                "price": "4 PLN",
+                "photo": 57 },
+
+                {"name": "Sok Cappy",
+                "ingredients": "300 ml",
+                "price": "3.5 PLN",
+                "photo": 58 },
+
+                {"name": "Coca Cola/FuzeTea/Fanta",
+                "ingredients": "500 ml",
+                "price": "4 PLN",
+                "photo": 59 },
+
+                {"name": "Woda gazowana/niegazowana",
+                "ingredients": "500 ml",
+                "price": "3 PLN",
+                "photo": 60 }
+]}
+}
